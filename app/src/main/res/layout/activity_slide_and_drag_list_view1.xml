@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackgroundColorMain"
+    tools:context=".SlideAndDragListViewActivity1">
+    <com.yydcdut.sdlv.SlideAndDragListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="1dp"
+        android:divider="@android:drawable/divider_horizontal_textfield"
+        android:id="@+id/lv">
+    </com.yydcdut.sdlv.SlideAndDragListView>
+</android.support.constraint.ConstraintLayout>
