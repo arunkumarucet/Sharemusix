@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="arunapps.com.sharemusix.MainActivity">
+    <item
+        android:id="@+id/action_wifi"
+        android:orderInCategory="100"
+        android:title="WiFi Stream"
+        android:icon="@drawable/ic_wifi_icon"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_create_playlist"
+        android:orderInCategory="200"
+        android:title="Create Playlist"
+        android:icon="@drawable/ic_add_playlist"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_3d"
+        android:orderInCategory="300"
+        android:title="3D Sound Effect"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/action_help"
+        android:orderInCategory="400"
+        android:title="Help"
+        app:showAsAction="never"/>
+</menu>
