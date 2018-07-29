@@ -32,5 +32,5 @@ dependencies {
     implementation 'com.android.support:recyclerview-v7:26.1.0'
     implementation 'com.android.support:cardview-v7:26.1.0'
     implementation 'com.sothree.slidinguppanel:library:3.4.0'
-    implementation project(':sdlv')
+    implementation 'com.yydcdut:sdlv:0.7.6'
 }
